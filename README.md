@@ -13,6 +13,38 @@ The catalog will allow an admin to manage products and categories.
 2. Admin login and basic management
 3. Product listing with basic details
 
+## Project Structure
+
+```
+MCM/
+│
+├── README.md
+├── config.php
+├── .htaccess (optional)
+├── db_test.php
+│
+├── public/
+│   ├── index.php
+│   ├── about.php
+│   └── product.php
+│
+├── includes/
+│   ├── header.php
+│   └── footer.php
+│
+├── admin/
+│   ├── login.php
+│   ├── logout.php
+│   ├── dashboard.php
+│   ├── products.php
+│   └── categories.php
+│
+└── assets/
+    ├── css/
+    │   └── style.css
+    └── images/
+```
+
 ## Note
 This is an initial version of the project description for learning purposes.  
 It will be updated as development progresses.
